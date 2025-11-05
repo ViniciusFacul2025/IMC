@@ -65,7 +65,6 @@ label_resultado = tk.Label(frame, text="Resultado", width=29, height=4,
                            bg="#d6eaf8", fg="#154360", relief="sunken", anchor="nw", justify="left", font=("Arial", 10))
 label_resultado.grid(row=2, column=2, rowspan=2, padx=10, pady=7, sticky="n")
 
-# Botões
 botao_frame = tk.Frame(frame, bg="#f5fbff")
 botao_frame.grid(row=4, column=0, columnspan=3, pady=(13, 0))
 
